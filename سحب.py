@@ -19,16 +19,20 @@ def S1():
             global s
             k = random.choice(
                 [
-                 
-                'yuvrajgupta001', 
-                'अरिश',
-                'r336660',
-                'oxygen033536',
-                'उर्जित',
-                'उधय',
-                'ईनायत',
-                'उधय',
-                'आरिज',                                                                                                                               
+            
+            'clrankla',
+            'alkasherama6474',
+            'joydasnewvideoson',
+            'karanpachwara5055',
+            'mohinism',
+            'imratanm',
+            'sonalsharma310',
+            'malkhankushwaha72',
+            'beautyqueen640',
+            'user811943779032',
+            'user220586309',
+            'shurtimahajan02',
+                                                                                                                                               
                 ]
             )
             j = ''.join(random.choice(k) for i in range(random.randrange(4, 9)))
@@ -140,7 +144,7 @@ def S1():
                 if 'user_info' in q and 'follower_count' in q['user_info'] and 'unique_id' in q['user_info']:
                     fo = (q['user_info']['follower_count'])
                     # --- هذا هو السطر الذي تم تعديله ---
-                    if 5000 <= fo <= 10000000:
+                    if 100 <= fo <= 10000000:
                         u = (q['user_info']['unique_id'])
                         
                         # Flickering effect (optional and might be annoying)
