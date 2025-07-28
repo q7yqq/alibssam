@@ -133,7 +133,7 @@ def S1():
                 if 'user_info' in q and 'follower_count' in q['user_info'] and 'unique_id' in q['user_info']:
                     fo = (q['user_info']['follower_count'])
                     # --- هذا هو السطر الذي تم تعديله ---
-                    if 500 <= fo <= 10000:
+                    if 100 <= fo <= 100000:
                         u = (q['user_info']['unique_id'])
                         
                         # Flickering effect (optional and might be annoying)
